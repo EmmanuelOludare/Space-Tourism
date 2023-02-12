@@ -1,0 +1,317 @@
+.Destination{
+    background-image: url('../assets/destination/background-destination-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.Destination>main{
+    margin:.7rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.3rem;
+    padding: 0 1rem;
+}
+
+.destination__header__text{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.destination__page__index{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.destination__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.3rem;
+}
+
+.destination__img__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.destination__img{
+    width: 50%;
+    height: 50%;
+}
+
+.destination__info__container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap:1.3rem;
+}
+
+.destinations__container{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.destination{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    color: #D0D6F9;
+    padding: .1rem;
+}
+
+.destination__header{
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: .5rem;
+}
+
+.destination__description{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #D0D6F9;
+}
+
+.destination__info{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 1rem;
+    border-top:2px solid #383B4B;
+    width:100%;
+    padding-top:1.3rem;
+}
+
+.destination__info>div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.info__text{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+
+.info__value{
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/*!TABLET MODE*/
+@media (min-width: 35rem) {
+    .Destination{
+        background-image: url('../assets/destination/background-destination-tablet.jpg');
+    }
+    
+    .Destination>main{
+        margin:4rem auto 0 auto;
+        flex-direction: column;
+        gap:2rem;
+        padding: 0 1rem;
+    }
+    
+    .destination__header__text{
+        align-self: flex-start;
+        gap: 15px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+    
+    .destination__page__index{
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+
+    .destination__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+    }
+
+    .destination__info__container{
+        gap:1.3rem;
+    }
+    
+    .destinations__container{
+        gap: 30px;
+    }
+    
+    .destination{
+        padding: .3rem;
+        font-size: 20px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+    
+    .destination__header{
+        font-size: 80px;
+        line-height: 92px;
+    }
+    
+    .destination__description{
+        font-size: 16px;
+        line-height: 28px;
+        width: 75%;
+        padding-bottom: 2rem;
+    }
+    
+    .destination__info{
+        flex-direction: row;
+        gap: 6rem;
+        border-top:2px solid #383B4B;
+        width:75%;
+        padding-top:2rem;
+    }
+}
+
+/*!DESKTOP MODE*/
+@media (min-width: 62em) {
+    .Destination{
+        background-image: url('../assets/destination/background-destination-desktop.jpg');
+    }
+    
+    .Destination>main{
+        margin:4rem 5% 0 9%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        padding: 0 1rem;
+    }
+    
+    .destination__header__text{
+        align-self: flex-start;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        margin-left:3rem;
+    }
+    
+    .destination__page__index{
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+    }
+
+    .destination__container{
+        flex-direction: row;
+        gap:4rem;
+    }
+
+    .destination__img__container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .destination__img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .destination__info__container{
+        align-items: flex-start;
+        justify-content:center;
+        gap:1.3rem;
+    }
+    
+    .destinations__container{
+        gap: 30px;
+    }
+    
+    .destination{
+        padding: .3rem;
+        font-size: 20px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+    
+    .destination__header{
+        font-size: 100px;
+        line-height: 115px;
+    }
+    
+    .destination__description{
+        font-size: 18px;
+        line-height: 32px;
+        width: 75%;
+        padding-bottom: 2rem;
+        text-align: left;
+    }
+    
+    .destination__info{
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 6rem;
+        border-top:2px solid #383B4B;
+        width:75%;
+        padding-top:2rem;
+    }
+
+    .destination__info>div{
+        align-items:flex-start;
+        justify-content:center;
+        gap: .3rem;
+    }
+}
