@@ -59,7 +59,7 @@
     font-size: 1.8rem;
     line-height: 23px;
     letter-spacing: 1.25px;
-    position: fixed;
+    position: absolute;
     bottom:3rem;
     left:0;
     right:0;
@@ -151,7 +151,7 @@
         align-items:flex-start;
         text-align: left;
         width:80%;
-        position: fixed;
+        position: absolute;
         bottom: 8.2rem;
     }
     
