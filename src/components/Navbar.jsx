@@ -1,4 +1,4 @@
-import { useState,useRef,useEffect } from "react";
+import { useState } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import '../scss/Navbar.scss';
 import logo from '../assets/shared/logo.svg';
@@ -18,6 +18,7 @@ const Navbar = () => {
           <img src={logo} className="logo" />
           <img src={sideBarSlide ? closeMenuBar : openMenuBar} className="open__menu__bar" onClick={toggleSidebarNav}/>
         </div>
+        <div className="line"></div>
         <div className="sidebar-nav">
             <ul className="links__container">
               <CustomLink to="/" className="links"><span className="index__text">00</span>Home</CustomLink>

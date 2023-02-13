@@ -3,8 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    position: fixed;
+    min-height: 100vh;
 }
 
 .Home>main{
@@ -12,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 .8rem;
+    padding: 0 1.3rem;
 }
 
 .intro__container{
@@ -20,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap:.5rem;
+    gap:1rem;
     width:100%;
 }
 
@@ -60,7 +59,7 @@
     font-size: 1.8rem;
     line-height: 23px;
     letter-spacing: 1.25px;
-    position: absolute;
+    position: fixed;
     bottom:3rem;
     left:0;
     right:0;
@@ -101,12 +100,11 @@
     }
     
     .Home>main{
-        margin:9rem auto 0 auto;
-        gap:7rem;
+        margin:6.6rem auto 0 auto;
     }
     
     .intro__container{
-        gap:2rem;
+        gap:1.5rem;
     }
     
     .intro__text{
@@ -123,7 +121,7 @@
     .intro__paragraph{
         font-size: 1rem;
         line-height: 28px;
-        width:70%;
+        width:60%;
     }
     
     .home__prompt {
@@ -131,30 +129,30 @@
         line-height: 25px;
         letter-spacing: 1.5px;
         width:32%;
-        bottom:3.5rem;
+        bottom:5.6rem;
     }
 }
 
 /*!DESKTOP MODE*/
-@media (min-width: 62em) {
+@media (min-width: 62rem) {
     .Home{
         background-image: url('../assets/home/background-home-desktop.jpg');
-        position: relative;
+
     }
     
     .Home>main{
-        position: relative;
         margin:10% auto 0 auto;
         flex-direction: row;
-        padding: 0 5rem 0 5rem;
+        padding: 0 5rem 0 9rem;
     }
     
     .intro__container{
-        gap:2.5rem;
+        gap:1.5rem;
         align-items:flex-start;
         text-align: left;
-        display: flex;
         width:80%;
+        position: fixed;
+        bottom: 8.2rem;
     }
     
     .intro__text{
@@ -179,8 +177,8 @@
         line-height: 25px;
         letter-spacing: 1.5px;
         width:20%;
-        bottom:.5rem;
-        left:75%;
+        bottom:8.2rem;
+        left:70%;
         right:0;
         margin:0;
     }

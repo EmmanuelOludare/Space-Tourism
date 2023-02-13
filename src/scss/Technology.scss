@@ -11,14 +11,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1.5rem;
+    gap:2rem;
 }
 
 .technology__header__text{
     display:flex;
     align-items: center;
     justify-content:center;
-    gap: 15px;
+    gap: 19px;
     font-family: 'Barlow Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1.5rem;
+    gap:2.1rem;
 }
 
 .technology__img__container{
@@ -62,13 +62,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1.5rem;
+    gap:1.6rem;
 }
 
 .technologies__container{
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 1rem;
 }
 
 .technology{
@@ -91,7 +91,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:.5rem;
+    gap:.8rem;
 }
 
 .terminology{
@@ -142,12 +142,11 @@
     }
     
     .technology__header__text{
+        margin-left: 3.4rem;
         align-self: flex-start;
-        gap: 15px;
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 3.375px;
-        margin-left: 1rem;
     }
     
     .technology__page__index{
@@ -157,7 +156,7 @@
     }
     
     .technology__container{
-        gap:2.5rem;
+        gap:3.5rem;
         width: 100%;
     }
     
@@ -168,7 +167,7 @@
     
     .technology__text__container{
         padding: 0 10rem;
-        gap:2.5rem;
+        gap:3.5rem;
     }
     
     .technologies__container{
@@ -218,7 +217,7 @@
         font-size: 28px;
         line-height: 34px;
         letter-spacing: 4.725px;
-        margin-left:10.5rem;
+        margin-left:10.2rem;
     }
     
     .technology__page__index{
@@ -250,8 +249,10 @@
     }
     
     .technology{
-        padding: .9rem 1.2rem;
-        font-size: 20px;
+        height: 80px;
+        width: 80px;
+        padding:0;
+        font-size: 32px;
     }
     
     .technology__info{
@@ -265,13 +266,13 @@
     }
     
     .technology__name{
-        font-size: 40px;
-        line-height: 46px;
+        font-size: 56px;
+        line-height: 64px;
     }
     
     .technology__description{
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 32px;
         text-align:left;
     }
 }
