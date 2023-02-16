@@ -7,11 +7,11 @@
 }
 
 .Home>main{
-    margin:4rem auto 0 auto;
+    margin:4rem auto 2.5rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 1.3rem;
+    padding: 0 1.3rem 2.5rem 1.3rem;
 }
 
 .intro__container{
@@ -56,20 +56,20 @@
     font-style: normal;
     font-weight: 400;
     background-color: #FFFFFF;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
     line-height: 23px;
     letter-spacing: 1.25px;
     position: absolute;
-    bottom:3rem;
+    bottom:0;
     left:0;
     right:0;
     margin:auto;
     z-index: 1;
     display: inline-grid;
     place-items: center;
-    width:50%;
+    width:150px;
+    height: 150px;
     border-radius: 50%;
-    aspect-ratio: 1;
     text-decoration: none;
     color: #0B0D17;
 }
@@ -126,24 +126,24 @@
     
     .home__prompt {
         font-size: 2rem;
-        line-height: 25px;
-        letter-spacing: 1.5px;
-        width:32%;
+        line-height: 37px;
+        letter-spacing: 2px;
+        width:242px;
+        height: 242px;
         bottom:5.6rem;
     }
 }
 
 /*!DESKTOP MODE*/
-@media (min-width: 62rem) {
+@media (min-width: 65rem) {
     .Home{
         background-image: url('../assets/home/background-home-desktop.jpg');
-
     }
     
     .Home>main{
-        margin:10% auto 0 auto;
+        margin:0rem auto 2.5rem auto;
         flex-direction: row;
-        padding: 0 5rem 0 9rem;
+        padding: 0 5rem 0 3.6rem;
     }
     
     .intro__container{
@@ -152,7 +152,8 @@
         text-align: left;
         width:80%;
         position: absolute;
-        bottom: 8.2rem;
+        bottom: 3rem;
+        margin-top: 5rem;
     }
     
     .intro__text{
@@ -174,12 +175,13 @@
     
     .home__prompt {
         font-size: 2rem;
-        line-height: 25px;
-        letter-spacing: 1.5px;
-        width:20%;
-        bottom:8.2rem;
-        left:70%;
+        line-height: 37px;
+        letter-spacing: 2px;
+        width:274px;
+        height: 274px;
+        position: absolute;
+        bottom:3rem;
+        left: 75%;
         right:0;
-        margin:0;
     }
 }

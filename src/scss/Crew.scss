@@ -8,7 +8,7 @@
 
 .Crew>main{
     margin:1.5rem auto 0 auto;
-    padding: 0 1rem;
+    padding: 0 1rem 2rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,8 +60,8 @@
 }
 
 .crew__member__img{
-    height:50%;
-    width: 50%;
+    height:327px;
+    width: 223px;
 }
 
 .crew__info__container{
@@ -134,10 +134,10 @@
     }
     
     .Crew>main{
-        margin:3.5rem auto 0 auto;
+        margin:3rem auto 0 auto;
         flex-direction: column;
         padding: 0 1rem;
-        gap: 3.75rem;
+        gap: 2.5rem;
     }
     
     
@@ -158,7 +158,7 @@
     
     .crew__container{
         flex-direction: column-reverse;
-        gap:2rem;
+        gap:3.5rem;
     }
     
     .crew__img__container{
@@ -168,8 +168,8 @@
     }
     
     .crew__member__img{
-        height:50%;
-        width: 50%;
+        height:532px;
+        width: 369px;
     }
     
     .crew__info__container{
@@ -207,25 +207,24 @@
 }
 
 /*!DESKTOP MODE*/
-@media (min-width: 62em) {
+@media (min-width: 65rem) {
     .Crew {
         background-image: url('../assets/crew/background-crew-desktop.jpg');
     }
     
     .Crew>main{
-        margin:4rem auto 0 auto;
+        margin:6rem auto 0 auto;
         flex-direction: column;
         padding: 0 1rem;
         gap: 1.5rem;
     }
-    
     
     .crew__header__text{
         align-self: flex-start;
         font-size: 28px;
         line-height: 34px;
         letter-spacing: 4.725px;
-        margin-left:5.5rem;
+        margin-left:3.6rem;
     }
     
     .crew__page__index{
@@ -235,11 +234,9 @@
     }
     
     .crew__container{
-        padding: 0 0 0 6.5rem;
         flex-direction: row-reverse;
-        gap:2rem;
-        position: fixed;
-        bottom: 0;
+        gap:1.5rem;
+        padding: 0 .5rem 0 3.6rem;
     }
     
     .crew__img__container{
@@ -248,10 +245,8 @@
     }
     
     .crew__member__img{
-        height:70%;
-        width: 70%;
-        max-height:75%;
-        max-width: 75%;
+        height:651px;
+        width: 524px;
     }
     
     .crew__info__container{
@@ -267,13 +262,14 @@
     
     .crew__member{
         padding:.4rem;
+        cursor: pointer;
     }
     
     .crew__info{
         align-items: flex-start;
         gap:1rem;
         padding: 0;
-        width: 100%;
+        width: 90%;
     }
     
     .crew__member__role{
@@ -290,6 +286,6 @@
         font-size: 18px;
         line-height: 32px;
         text-align: left;
-        width: 60%;
+        width: 100%;
     }
 }
