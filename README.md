@@ -44,7 +44,6 @@ I started by going through the designs and trying to create my workflow. Then I 
 
 ### Built with
 
-- CSS custom properties
 - [SASS](https://sass-lang.com/) - CSS preprocessor
 - Flexbox
 - Mobile-first workflow
