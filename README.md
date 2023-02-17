@@ -28,10 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![HOME PAGE](./assets/home-desktop.png)
-![DESTINATION PAGE](./assets/destination-desktop.png)
-![CREW PAGE](./assets/crew-desktop.png)
-![TECHNOLOGY PAGE](./assets/tech-desktop.png)
+![](./src/assets/home-desktop.png)
+![](./src/assets/destination-desktop.png)
+![](./src/assets/crew-desktop.png)
+![](./src/assets/tech-desktop.png)
 
 ### Links
 
