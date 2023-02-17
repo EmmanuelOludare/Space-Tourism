@@ -35,7 +35,7 @@ const Technology = (props) => {
         <h3 className="technology__header__text"><span className="technology__page__index">03</span>Space launch 101</h3>
         <div className="technology__container">
           <div className="technology__img__container">
-              <img className="technology__img" src={technologyImg[dataIndex]}/>
+              <img className="technology__img" src={technologyImg[dataIndex]} alt="technology__image"/>
           </div>
           <div className="technology__text__container">
             <ul className="technologies__container">

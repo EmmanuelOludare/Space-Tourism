@@ -20,7 +20,7 @@ const Crew = (props) => {
         <h3 className="crew__header__text"><span className="crew__page__index">02</span>Meet your crew</h3>
         <div className="crew__container">
           <div className="crew__img__container">
-            <img className="crew__member__img" src={crewImg[dataIndex]}/>
+            <img className="crew__member__img" src={crewImg[dataIndex]} alt="crew__member__image"/>
           </div>
           <div className="crew__info__container">
             <ul className="crew__members">

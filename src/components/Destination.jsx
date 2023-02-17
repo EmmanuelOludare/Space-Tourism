@@ -20,7 +20,7 @@ const Destination = (props) => {
         <h3 className="destination__header__text"><span className="destination__page__index">01</span>Pick your destination</h3>
         <div className="destination__container">
           <div className="destination__img__container">
-            <img className="destination__img"src={destinationImg[dataIndex]}/>
+            <img className="destination__img" src={destinationImg[dataIndex]} alt="destination__image"/>
           </div>
           <div className="destination__info__container">
             <ul className="destinations__container">

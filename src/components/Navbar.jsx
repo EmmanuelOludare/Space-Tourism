@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <nav className='Navbar'>
         <div className="logo__menu">
-          <img src={logo} className="logo" />
-          <img src={sideBarSlide ? closeMenuBar : openMenuBar} className="open__menu__bar" onClick={toggleSidebarNav}/>
+          <img src={logo} className="logo" alt="logo-image" />
+          <img src={sideBarSlide ? closeMenuBar : openMenuBar} className="open__menu__bar" onClick={toggleSidebarNav} alt="menu-toggle"/>
         </div>
         <div className="line"></div>
         <div className="sidebar-nav">
