@@ -1,3 +1,9 @@
+$barlow-font: 'Barlow', sans-serif;
+$barlow-c-font: 'Barlow Condensed', sans-serif;
+$bellefair-font: 'Bellefair', serif;
+$main-text-color: #FFFFFF;
+$other-text-color: #D0D6F9;
+
 .Home{
     background-image: url('../assets/home/background-home-mobile.jpg');
     background-size: cover;
@@ -24,38 +30,38 @@
 }
 
 .intro__text{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $barlow-c-font;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 2.7px;
-    color: #D0D6F9;
+    color: $other-text-color;
 }
 
 .intro__header{
-    font-family: 'Bellefair', serif;
+    font-family: $bellefair-font;
     font-style: normal;
     font-weight: 400;
     font-size: 5rem;
     line-height: 100px;
-    color: #FFFFFF;
+    color: $main-text-color;
 }
 
 .intro__paragraph{
-    font-family: 'Barlow', sans-serif;
+    font-family: $barlow-font;
     font-style: normal;
     font-weight: 400;
     font-size: .94rem;
     line-height: 25px;
-    color: #D0D6F9;
+    color:$other-text-color ;
 }
 
 .home__prompt {
-    font-family: 'Bellefair', serif;
+    font-family: $bellefair-font;
     font-style: normal;
     font-weight: 400;
-    background-color: #FFFFFF;
+    background-color: $main-text-color;
     font-size: 1.25rem;
     line-height: 23px;
     letter-spacing: 1.25px;
@@ -80,7 +86,7 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background:#FFFFFF;
+    background:$main-text-color;
     border-radius: 50%;
     opacity: 0;
     transition: opacity 500ms linear, transform 750ms ease-in-out;

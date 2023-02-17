@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [SOLUTION URL](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub)
 - Live Site URL: [LIVE SITE URL](https://olu-space-tourism.netlify.app/)
 
 ## My process

@@ -1,5 +1,8 @@
+$barlow-c-font: 'Barlow Condensed', sans-serif;
+$main-text-color: #FFFFFF;
+
 .Navbar{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $barlow-c-font;
     display: flex;
     align-items: center;
 }
@@ -21,7 +24,7 @@
 }
 
 .open__menu__bar:hover{
-    border: solid 2px white;
+    border: solid 2px $main-text-color;
 }
   
 .sidebar-nav {
@@ -48,7 +51,7 @@
     align-items: flex-start;
     list-style: none;
     gap: 32px;
-    color: white;
+    color: $main-text-color;
     margin-top: 102px;
 }
 
@@ -69,12 +72,12 @@
 }
 
 .links:hover{
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid $main-text-color;
     opacity: .6;
 }
 
 .active{
-   border-bottom: 4px solid white;
+   border-bottom: 4px solid $main-text-color;
 }
 
 
@@ -114,12 +117,12 @@
     }
     
     .links:hover{
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $main-text-color;
         opacity: .6;
     }
     
     .active{
-       border-bottom: 2px solid white;
+       border-bottom: 2px solid $main-text-color;
     }
 }
 
@@ -139,7 +142,7 @@
         left:10rem;
         width: 33%;
         height: 1px;
-        background: white;
+        background: $main-text-color;
         mix-blend-mode: normal;
         opacity: 0.25;
         z-index: 100;

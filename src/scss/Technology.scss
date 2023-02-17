@@ -1,3 +1,9 @@
+$barlow-font: 'Barlow', sans-serif;
+$barlow-c-font: 'Barlow Condensed', sans-serif;
+$bellefair-font: 'Bellefair', serif;
+$main-text-color: #FFFFFF;
+$other-text-color: #D0D6F9;
+
 .Technology {
     background-image: url('../assets/technology/background-technology-mobile.jpg');
     background-size: cover;
@@ -19,24 +25,24 @@
     align-items: center;
     justify-content:center;
     gap: 19px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $barlow-c-font;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 19px;
     letter-spacing: 2.7px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $main-text-color;
 }
 
 .technology__page__index{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $barlow-c-font;
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 19px;
     letter-spacing: 2.7px;
-    color: #FFFFFF;
+    color: $main-text-color;
     mix-blend-mode: normal;
     opacity: 0.25;
 }
@@ -75,16 +81,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Bellefair', serif;
+    font-family: $bellefair-font;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: $main-text-color;
     padding: .7rem 1rem;
     background-color: transparent;
     border-radius:50%;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $main-text-color;
 }
 
 .technology__info{
@@ -95,35 +101,35 @@
 }
 
 .terminology{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $barlow-c-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     letter-spacing: 2.3625px;
-    color: #D0D6F9;
+    color: $other-text-color;
 }
 
 .technology__name{
-    font-family: 'Bellefair', serif;
+    font-family: $bellefair-font;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: $main-text-color;
 }
 
 .technology__description{
-    font-family: 'Barlow', sans-serif;
+    font-family: $barlow-font;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    color: #D0D6F9;
+    color: $other-text-color;
     margin-top: .7rem;
 }
 
